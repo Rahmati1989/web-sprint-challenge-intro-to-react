@@ -29,12 +29,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+Answer: 
+React JS is a JavaScript library for building UI. 
+React JS solve complecated code it use virtual DOM to interact with actual dom. 
+React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 
 1. Describe component state.
+Answer: 
+Components are the building blocks of React applications. We use components to display some data (often called “state”) to the screen for our users.
 
 1. Describe props.
+Answer:
+React Props are like function arguments in JavaScript and attributes in HTML.
+Pass Data. Props are also how you pass data from one component to another, as parameters.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+Answer:
+If you’re not using React to update state or render HTML, that’s a side effect. It’s any non-React thing. This means anytime you call an API, use setInterval / setTimeout, add a keyboard listener, or really anytime you mess with the window object you’re introducing side effects.
+Side effects can happen outside the scope of the current function that is being executed. For example, side effects can run and won't cause problems regardless of what's going on within a component. Some do and do not require cleanup.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
